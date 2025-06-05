@@ -10,3 +10,8 @@ class ModelType(Enum):
     open_ai = 'open_ai' # OpenAI
     cohere = 'cohere' # Cohere
     anthropic = 'anthropic' # Anthropic
+
+class PromptType(Enum):
+    persona_inference = 'persona_inference'
+    persona_accuracy = 'persona_accuracy'
+    persona_prefs = 'persona_prefs'

@@ -5,8 +5,8 @@ Helper functions/class to retrieve prompts for a specific experiment. Prompts co
 Combining (1) and (2), you get a list of prompts
 """
 
-from model.prompt_template_loader import PromptFactory, PromptType
-from model.prompt_data_loader import DataFetcherFactory
+from mcqa_artifacts.model.prompt_template_loader import PromptFactory, PromptType
+from mcqa_artifacts.model.prompt_data_loader import DataFetcherFactory
 
 class PromptBuilder:
 
